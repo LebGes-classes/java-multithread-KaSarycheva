@@ -1,4 +1,3 @@
-// Main.java
 package org.example;
 
 import org.apache.poi.ss.usermodel.*;
@@ -66,7 +65,6 @@ public class Main {
         // Добавляем задачу в пул потоков
         executor.execute(() -> {
             System.out.println("Работник " + FIO + " добавлен и начал выполнять задачу: " + task);
-            // Здесь можно добавить логику выполнения задачи
         });
     }
 
